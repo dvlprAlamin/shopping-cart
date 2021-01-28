@@ -25,9 +25,9 @@
 
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button class="btn btn-default" id="phoneMinus"><i class="fas fa-minus"></i></button>
+                           <button onclick="productCount(false,'phone')" class="btn btn-default" id="phoneMinus"><i class="fas fa-minus"></i></button>
                            <input type="text" class="form-control text-center" value="1" id="phoneCount">
-                           <button class="btn btn-default" id="phonePlus"><i class="fas fa-plus"></i></button>
+                           <button onclick="productCount(true,'phone')" class="btn btn-default" id="phonePlus"><i class="fas fa-plus"></i></button>
                         </div>
                         <h5>$ <span id="phonePrice">1000</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
@@ -43,9 +43,9 @@
                      </div>
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button class="btn btn-default" id="caseMinus"><i class="fas fa-minus"></i></button>
+                           <button onclick="productCount(false,'case')" class="btn btn-default" id="caseMinus"><i class="fas fa-minus"></i></button>
                            <input type="text" class="form-control text-center" value="1" id="caseCount">
-                           <button class="btn btn-default" id="casePlus"><i class="fas fa-plus"></i></button>
+                           <button onclick="productCount(true,'case')" class="btn btn-default" id="casePlus"><i class="fas fa-plus"></i></button>
 
                         </div>
                         <h5>$ <span id="casePrice">50</span></h5>
@@ -64,7 +64,7 @@
                      </div>
 
                      <div class="col-md-4 status">
-                        <h5>$ <span id="subTotal">00</span></h5>
+                        <h5>$ <span id="subTotal">1050</span></h5>
                         <h5>$ <span id="tax">0</span></h5>
                         <h5>$ <span id="total">1278</span></h5>
                      </div>
